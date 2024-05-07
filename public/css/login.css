@@ -1,0 +1,78 @@
+#pindah {
+    position: absolute;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    left: 5vw;
+    top: 5vh;
+  }
+  #main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  #form {
+    color: white;
+    background: #00000050;
+    padding: 3vw 4vw;
+    border-radius: 10px;
+    border: 2px solid #fff;
+  }
+  #judul {
+    font-size: 2rem;
+    margin: 0;
+  }
+  #tombolLogin {
+    border: 2px solid;
+  }
+  img {
+    width: 10vw;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+    justify-content: center;
+    align-items: center;
+  }
+  input {
+    background: none;
+    color: white;
+    border: none;
+    border-bottom: 2px solid #fff;
+    width: 30vw;
+    font-size: 1.5rem;
+  }
+  input#npm, input#pass {
+    background-size: 2.4vw;
+    background-repeat: no-repeat;
+    text-indent: 25px;
+    padding: 0 0 10px 10px;
+  }
+  input#npm {
+    background-image: url("/img/profile.png");
+  }
+  input#pass {
+    background-image: url("/img/password.png");
+  }
+  #stdltr {
+    width: 38vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+    gap: 2vw;
+  }
+  #stdltr button {
+    width: 18vw;
+    height: 5vh;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    background: none;
+    color: white;
+    font-size: 1.2rem;
+  }
+  #ltr {
+    background: #aaa !important;
+  }
