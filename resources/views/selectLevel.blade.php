@@ -21,14 +21,28 @@
     <img src="img/logo.png" id="logo" alt="">
     <div id="main">
         <form action="">
-            <div id="loop">
-                <p id="loopTitle">Level 1 Looping</p>
-                <p id="reqPower">Req Power: 0</p>
-                <input type="text" id="looping" placeholder="Level 1">
+            <div id="row">
+                <div class="level level-1">
+                    <h4>LEVEL 1 (Looping)</h4>
+                    <p>Req Power: 0</p>
+                    <input type="text" id="input-box" placeholder="Level 1">
+                </div>
+                <div class="level level-2">
+                    <h4>LEVEL 2 (Branching)</h4>
+                    <p>Req Power: 2</p>
+                    <input type="text" id="input-box" placeholder="Level 2">
+                </div>
+                <div class="level level-3">
+                    <h4>LEVEL 3 (Function)</h4>
+                    <p>Req Power: 1</p>
+                    <input type="text" id="input-box" placeholder="Level 3">
+                </div>
+                <div class="level level-4">
+                    <h4>LEVEL 4 (Rekursif)</h4>
+                    <p>Req Power: 3</p>
+                    <input type="text" id="input-box" placeholder="Level 4">
+                </div>
             </div>
-            {{-- <input type="text" id="branching" placeholder="Level 2">
-            <input type="text" id="function" placeholder="Level 3">
-            <input type="text" id="recursive" placeholder="Level 4"> --}}
         </form>
     </div>
 </body>

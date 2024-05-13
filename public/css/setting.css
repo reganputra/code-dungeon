@@ -1,23 +1,92 @@
-.button-container {
+body{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.button {
     display: flex;
+    height: 100vh;
     align-items: center;
-    justify-content: center;
-    margin: 10px;
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    font-size: 16px;
-    cursor: pointer;
-    min-width: 80px;
-    height: 40px;
+  }
+
+
+
+#main {
+    background: url("/img/scroll.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 100vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  gap: 4vh;
 }
-.button:hover {
-    background-color: #45a049;
+
+
+#logo{
+    position: absolute;
+  width: 8vw;
+  top: 8vh;
+  left: 46vw;
+}
+
+.back {
+    position: absolute;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    left: 5vw;
+    top: 5vh;
+}
+
+.container {
+    box-sizing: border-box;
+    padding: 10px 50px;
+}
+
+p{
+    color: white;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.toggle-container {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+}
+
+.toggle {
+    width: 60px;
+    height: 35px;
+    border-radius: 40px;
+    background-color: orange;
+    display: inline-block;
+}
+
+.toggle-c {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: orange;
+    display: inline-block;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    transition: 300ms all;
+    border: 1px solid white;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]:checked + div .toggle-c {
+    left: 30px;
+    background-color: white;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -25,3 +25,7 @@ Route::get('/selectLevel', function () {
 Route::get('/homeSiswa', function () {
     return view('homeSiswa');
 });
+
+Route::get('/setting', function () {
+    return view('setting');
+});

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lan.g="en">
 
 <head>
     <meta charset="UTF-8">
@@ -15,18 +15,37 @@
 </head>
 
 <body>
-    <div class="button-container">
-        <button class="button">CODE</button>
-        <button class="button">DUNGEON</button>
-        <button class="button">SFX</button>
-        <button class="button">ON</button>
-        <button class="button">OFF</button>
-        <button class="button">MUSIC</button>
-        <button class="button">BACK</button>
-        <button class="button">ON</button>
-        <button class="button">OFF</button>
+    <a href="" class="back">BACK</a>
+    <img src="img/logo.png" id="logo" alt="">
+    <div id="main">
+        <div class="container">
+            <div>
+                <h1>Setting</h1>
+            </div>
+            <div>
+                <div>
+                    <label for="togg-1">
+                        <p>SFX:</p>
+                        <input type="checkbox" name="" id="togg-1">
+                        <div class="toggle-container">
+                            <span class="toggle"></span>
+                            <span class="toggle-c"></span>
+                        </div>
+                    </label>
+                </div>
+                <div>
+                    <label for="togg-2">
+                        <p>Music:</p>
+                        <input type="checkbox" name="" id="togg-2">
+                        <div class="toggle-container">
+                            <span class="toggle"></span>
+                            <span class="toggle-c"></span>
+                        </div>
+                    </label>
+                </div>
+            </div>
+        </div>
     </div>
-
 </body>
 
 </html>
