@@ -28,7 +28,7 @@
             </form>
         </div>
         <div id="stdltr">
-            <a href="/login"><button id="std">Student</button></a>
+            <a href="/loginSiswa"><button id="std">Student</button></a>
             <button id="ltr">Lecturer</button>
         </div>
     </div>

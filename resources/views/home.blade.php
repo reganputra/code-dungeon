@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <a href="/login" id="pindah">LOGIN</a>
+    <a href="/loginSiswa" id="pindah">LOGIN</a>
     <div id="tengah">
         <p id="judul">WELCOME TO</p>
         <img src="img/logo.png" alt="">
