@@ -12,7 +12,7 @@
 
     <title>Login</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/loginSiswa.css">
 </head>
 
 <body>
@@ -20,7 +20,7 @@
     <div id="main">
         <img src="img/logo.png" alt="">
         <div id="form">
-            <form action="/homeSiswa" method="post">
+            <form action="/homeSiswa" method="get">
                 <p id="judul">LOGIN MAHASISWWA</p>
                 <input type="text" id="npm" name="npm" id="" placeholder="NPM">
                 <input type="password" id="pass" name="pass" id="" placeholder="Password">

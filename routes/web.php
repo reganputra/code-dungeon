@@ -17,3 +17,11 @@ Route::get('/loginDosen', function () {
 Route::get('/setting', function () {
     return view('setting');
 });
+
+Route::get('/selectLevel', function () {
+    return view('selectLevel');
+});
+
+Route::get('/homeSiswa', function () {
+    return view('homeSiswa');
+});
